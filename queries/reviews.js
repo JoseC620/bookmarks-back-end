@@ -1,13 +1,13 @@
 const db = require('../db/dbConfig')
 
-// const getAllReviews = async () => {
-//   try {     
-//     const allReviews = await db.any("SELECT * FROM reviews")
-//     return allReviews;
-//   } catch (error) {
-//     return error
-//   }
-// }
+const getAllReviews = async () => {
+  try {     
+    const allReviews = await db.any("SELECT * FROM reviews")
+    return allReviews;
+  } catch (error) {
+    return error
+  }
+}
 
 const getTheReviews = async (bookmarkId) => {
   try {     
