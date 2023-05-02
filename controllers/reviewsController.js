@@ -13,6 +13,7 @@ const {
 
 
 // reviews.get("/", async (req, res) => {
+//   console.log(req)
 //   const allReviews = await getAllReviews();
 //   if (allReviews[0]) {
 //     res.status(200).json(allReviews);
